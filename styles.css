@@ -39,6 +39,7 @@ p { margin: 0 0 16px; }
 .section h2 { grid-column: 1; grid-row: 1; }
 .section > p, .section > article, .section > .entry { grid-column: 2; }
 .section > :last-child, article > :last-child, .entry p:last-child { margin-bottom: 0; }
+.work-links { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 12px; font-size: 14px; }
 .section article + article { margin-top: 24px; padding-top: 23px; border-top: 1px solid var(--line); }
 .entry { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 15px; }
 .entry + .entry { margin-top: 23px; }
