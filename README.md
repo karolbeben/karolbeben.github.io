@@ -5,3 +5,4 @@ I'm a UAV pilot and research engineer pursuing a PhD at Warsaw University of Tec
 My research focuses on mission planning and coordination for multiple UAVs in remote sensing, from simulation to field testing.
 
 🌐 [Personal website](https://karolbeben.github.io/)
+
