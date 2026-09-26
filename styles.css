@@ -75,3 +75,16 @@ p { margin: 0 0 16px; }
 .references strong { font-weight: 650; }
 .references a { overflow-wrap: anywhere; }
 @media (max-width: 790px) { .publications > .publication-list { grid-column: 1; } }
+
+/* Technical stack */
+.section > .stack { grid-column: 2; min-width: 0; }
+.stack { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.stack-group { padding: 19px 20px 20px; border: 1px solid var(--line); background: #fbfcfc; }
+.stack-group h3 { margin: 0 0 14px; color: var(--ink); font: 650 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.stack-group h3::before { content: "> "; color: var(--accent); font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+.stack-group h3 span { margin-left: 7px; color: var(--muted); font: 500 11px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }
+.stack-tags { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 7px; margin: 0; padding: 0; list-style: none; }
+.stack-tags li { padding: 4px 8px; border: 1px solid #d9e3e7; border-radius: 3px; background: #fff; color: #354b55; font: 500 12px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }
+.stack-learning { background: #f7f9fa; }
+@media (max-width: 790px) { .section > .stack { grid-column: 1; } }
+@media (max-width: 610px) { .stack { grid-template-columns: 1fr; } }
